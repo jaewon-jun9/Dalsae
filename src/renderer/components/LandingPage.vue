@@ -10,6 +10,7 @@
         <InputPin/>
         <UserCall/>
         <TweetCall/>
+        <Streaming/>
         <FileAgent/>
       </div>
     </div>
@@ -24,6 +25,7 @@ import InputPin from "./Modals/InputPin.vue"
 import ApiUser from "./APICalls/UserCall.js"
 import UserCall from "./APICalls/UserCall.vue"
 import TweetCall from "./APICalls/TweetCall.vue"
+import Streaming from "./APICalls/Streaming.vue"
 import FileAgent from "./Agents/FileAgent.vue"
 import OAuth from "../oauth.js"
 import UIOptionModal from './Modals/UIOptionModal.vue'
@@ -41,6 +43,7 @@ export default {
     FileAgent,
     UIOptionModal,
     ImageModal,
+    Streaming,
   },
   data () {
     return {
